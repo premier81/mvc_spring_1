@@ -35,7 +35,6 @@ public String empList(Map<String, Object> model , HttpServletRequest request){
 	model.put("666", emp);
 	request.getSession().setAttribute("sesyjna", "Zmienna sesyjna");
 	model.put("sesyjna2", "sesyjna2");
-	log.info("dodalem do sesji obiejkt sesyjna2");
 	return "lista";
 }
 
